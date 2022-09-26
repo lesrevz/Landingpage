@@ -11,7 +11,8 @@ header {
     padding: 16px;
     justify-content: space-around;
     align-items: center;
-    /*position:fixed;*/
+    position:fixed;
+    border: none;
 }
 
 .headerlogo {
@@ -34,12 +35,54 @@ a {
 }
 
 
-
 .mainheader {
-
     display:flex;
-    flex-direction: column;
     flex-wrap: wrap;
     width: 100%;
     justify-content: space-around;
+    align-items: center;
+    margin-top: 80px;
+    background-color: #1f2937;
+    padding: 25px;
+    border: none;
+  
+    
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    /*flex:1;*/
+}
+
+h1 {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: bolder;
+}
+
+h2 {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+button {
+    width: 20%;
+    padding: 10px;
+    background-color: #3882f6;
+}
+
+
+img {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    max-width:400px;
+    max-height:400px;
+    transform: rotate(-90deg);
+    flex:1;
 }
