@@ -3,6 +3,8 @@ body {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
+/*All styling features for the header*/
+
 header {
     display: flex;
     flex-direction: row;
@@ -12,6 +14,8 @@ header {
     justify-content: space-around;
     align-items: center;
     position:fixed;
+    left:-10px;
+    top:-10px;
     border: none;
 }
 
@@ -33,6 +37,8 @@ a {
     text-decoration: none;
     font-size: 18px;
 }
+
+/*All styling elements for Mainheader*/
 
 
 .mainheader {
@@ -58,13 +64,13 @@ a {
     /*flex:1;*/
 }
 
-h1 {
+.h1text {
     font-size: 48px;
     color: #f9faf8;
     font-weight: bolder;
 }
 
-h2 {
+.h2text {
     font-size: 18px;
     color: #e5e7eb;
 }
@@ -73,10 +79,14 @@ button {
     width: 20%;
     padding: 10px;
     background-color: #3882f6;
+    font-size: large;
+    font-weight: 500;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 10px;
 }
 
 
-img {
+.cycles {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -85,4 +95,55 @@ img {
     max-height:400px;
     transform: rotate(-90deg);
     flex:1;
+    border-radius: 25px;
+}
+
+
+/*All styling elements for "some information"*/
+
+.divsomeinfo {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    flex-direction: column;
+    top: 535px;
+    left:-10px;
+    width:100%;
+    height:30%;
+}
+
+.h1someinfo {
+    display:flex;
+    margin-bottom: 40px;
+}
+
+.someinfoimages {
+    display: flex; 
+    column-gap: 50px;
+    justify-content: space-evenly;  
+}
+
+.sinimages {
+    display: flex;
+    max-width: 200px;
+    max-height: 200px;
+    flex:1;
+    border: 3px solid #3882f6;
+    border-radius: 25px;
+    
+}
+
+.imfogtext {
+    display: flex;
+   /* flex-wrap: wrap;
+    margin-left:-20px;
+    margin-top: 10px;*/
+    text-align: center;
+    font-style: italic;
+    font-weight: 600;
+    overflow-wrap: break-word;
+    border: 3px soild black;
+    
+
 }
