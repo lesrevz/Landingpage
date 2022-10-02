@@ -110,7 +110,7 @@ button {
     top: 535px;
     left:-10px;
     width:100%;
-    height:30%;
+    height:350px;
 }
 
 .h1someinfo {
@@ -145,5 +145,62 @@ button {
     overflow-wrap: break-word;
     border: 3px soild black;
     
+}
 
+/* Styling element for "Comment"*/
+.comment {
+    display: flex;
+    color: #1f2937;
+    position: absolute;
+    top:1000px;
+    width: 100%;
+    height: 350px;
+    background-color: #e5e7eb;
+    left: -0.4px;
+    justify-content: center;
+    align-items: center;
+    overflow-wrap: break-word ;
+}
+
+/* Styling elements for "Call to action"*/
+
+.calltoaction {
+    display: flex;
+    position: absolute;
+    top: 1350px;
+    left:-0.4px;
+    width:100%;
+    height: 350px;
+    justify-content: center;
+    align-items: center;
+}
+
+.ctabox {
+    display: flex;
+    width: 1000px;
+    height:150px;
+    background-color: #3882f6;
+    justify-content: space-evenly;
+    align-items:center ;
+    overflow: auto;
+    padding: 10px;
+}
+
+.ctabutton {
+    display: flex;
+    width: 100px;
+    height:50px;
+    justify-content: center;
+    align-items: center;
+    color: #f9faf8;
+}
+
+.h1cta {
+    text-align: start;
+    color: #e5e7eb;
+}
+
+.h1ctatext {
+    font-size: 36px;
+    font-weight: 800;
 }
