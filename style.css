@@ -41,11 +41,10 @@ a {
 
 /*All styling elements for Mainheader*/
 
-
 .mainheader {
     display:flex;
     width: 100%;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
     margin-top: 80px;
     background-color: #1f2937;
@@ -53,49 +52,46 @@ a {
     position: absolute;
     top:-10px;
     left:-0.4px;
-  
-    
 }
 
 .text {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
-    /*flex:1;*/
 }
 
 .h1text {
+    display: flex;
     font-size: 48px;
     color: #f9faf8;
     font-weight: bolder;
+    width:600px;
 }
 
 .h2text {
     font-size: 18px;
     color: #e5e7eb;
+    width:600px;
 }
 
 .signup {
-    width: 20%;
+    display: flex;
+    justify-content:center ;
+    width: 200px;
     padding: 10px;
     background-color: #3882f6;
     font-size: large;
     font-weight: 500;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     border-radius: 10px;
+    margin-top:20px;
 }
-
 
 .cycles {
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    max-width:400px;
+    max-width:600px;
     max-height:400px;
-    transform: rotate(-90deg);
     flex:1;
     border-radius: 25px;
 }
@@ -152,6 +148,7 @@ a {
 }
 
 /* Styling element for "Comment"*/
+
 .comment {
     display: flex;
     color: #1f2937;
